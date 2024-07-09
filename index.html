@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="png" href="./Assests/educraft-black.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flavors</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script>
+        $(window).on('scroll', function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        });
+    </script>
+</head>
+<body>
+<!-- Navigation Bar -->
+<header id="header">
+    <nav>
+        <div class="logo"><img src="assests/WhatsApp Image 2024-07-09 at 14.26.42_7cb106fc.jpg" alt="logo"></div>
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="./Assests/icons/search icon black.png" alt="search" onclick="slide()"></div>
+        <a class="get-started" href="login.html">Get Started</a>
+        <img src="Assests/icons/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+    <div class="head-container">
+        <div class="quote">
+            <p>FOOD IS NOT JUST EATING. IT'S AN EXPERIENCE</p>
+            <h3>A cozy, family-owned restaurant offering a diverse menu of fresh, locally-sourced ingredients. Enjoy delicious, expertly crafted dishes in a warm, inviting atmosphere perfect for casual dining or special occasions.</h3>
+            <div class="play">
+                <img src="./Assests/icons/play.png" alt="play"><span><a href="https://youtu.be/AqW8AMnmF2E?si=eOu36LoNUfiBDlwG" target="_blank">Watch Now</a></span>
+            </div>
+        </div>
+        <div class="svg-image">
+            <img src="assests/WhatsApp Image 2024-07-09 at 14.26.42_7cb106fc.jpg" alt="svg">
+        </div>
+    </div>
+    <div class="side-menu" id="side-menu">
+        <div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+        <div class="user">
+            <img src="" alt="Username">
+            <p></p>
+        </div>
+        <ul>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#portfolio_section">Portfolio</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+            <li><a href="#feedBACK">Feedback</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Some Popular Subjects -->
+<div class="title">
+    <span>Available Cuisine</span>
+</div>
+<br><br>
+
+<!-- Cuisine Section with Logo -->
+<div class="course">
+    <div class="logo-section">
+    
+    </div>
+    <div class="cbox">
+        <div class="det">
+            <a href="subjects/jee.html">
+                <img src="assests/Italian Food.jpg" alt="Italian">
+                <p>Italian</p>
+            </a>
+        </div>
+        <div class="det">
+            <a href="subjects/gate.html">
+                <img src="assests/Chinese food.jpg" alt="Chinese">
+                <p>Chinese</p>
+            </a>
+        </div>
+        <div class="det">
+            <a href="subjects/jee.html#sample_papers">
+                <img src="assests/American.jpg" alt="American">
+                <p>American</p>
+            </a>
+        </div>
+        <div class="det">
+            <a href="subjects/quiz.html">
+                <img src="assests/Japenese.jpg" alt="Japanese">
+                <p>Japanese</p>
+            </a>
+        </div>
+    </div>
+    <div class="cbox">
+        <div class="det">
+            <a href="subjects/computer_courses.html">
+                <img src="assests/South Indian.jpg" alt="South Indian">
+                <p>South Indian</p>
+            </a>
+        </div>
+        <div class="det">
+            <a href="subjects/computer_courses.html#data">
+                <img src="assests/High Calory.jpg" alt="North Indian">
+                <p>North Indian</p>
+            </a>
+        </div>
+        <div class="det">
+            <a href="subjects/computer_courses.html#algo">
+                <img src="assests/Healthy.jpg" alt="Healthy">
+                <p>Healthy</p>
+            </a>
+        </div>
+        <div class="det det-last">
+            <a href="subjects/computer_courses.html#projects">
+                <img src="assests/High Calory.jpg" alt="High Calory">
+                <p>High Calory</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="diffSection" id="about_section">
+    <center>
+        <p style="font-size: 50px; padding: 100px;">About</p>
+    </center>
+    <div class="about-content">
+        <div class="side-image">
+            <img class="sideImage" src="assests\man eating.jpg" alt="About Us">
+        </div>
+        <div class="side-text">
+            <h2>What do you think about us?</h2>
+            <p>Introducing "The Flavors," a restaurant. We offer seasonal, organic dishes crafted from local ingredients. Enjoy a modern, eco-friendly ambiance with an open kitchen, rooftop garden, and sustainable practices. Perfect for food enthusiasts seeking fresh, innovative cuisine in a vibrant, community-focused setting.</p>
+        </div>
+    </div>
+</div>
+<!--About-->
+    <div class="diffSection" id="about_section">
+        <center><p style="font-size: 50px; padding: 100px;">About</p></center>
+        <div class="about-content">
+                <div class="side-image">
+                    <img class="sideImage" src="Assests/extra/education.jpg">
+                </div>
+                <div class="side-text">
+                    <h2>What you think about us ?</h2>
+                    <p>Introducing "The Flavors," A restaurant. We offer seasonal, organic dishes crafted from local ingredients. Enjoy a modern, eco-friendly ambiance with an open kitchen, rooftop garden, and sustainable practices. Perfect for food enthusiasts seeking fresh, innovative cuisine in a vibrant, community-focused setting.
+
+
+
+
+
+
+                    </p>
+                </div>
+        </div>
+    </div>
+
+<!-- PORTFOLIO -->
+<div class="diffSection" id="portfolio_section">
+    <center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Portfolio</p></center>
+    <div class="content">
+        <p>
+            “Taste of India”
+        </p>
+    </div>
+</div>
+<div class="extra">
+    <p>We're increasing this data every year</p>
+    <div class="smbox">
+    <span><center><div class="data">211</div><div class="det">Staffs</div></center></span>
+    <span><center><div class="data">30</div><div class="det">Chef</div></center></span>
+    <span><center><div class="data">150</div><div class="det">Dishes</div></center></span>
+    <span><center><div class="data">20</div><div class="det">States</div></center></span>
+    </div>
+</div>
+
+<!--Left Space for Team Section Ok don't remove it-->  
+
+<!--SERVICES WE PROVIDE-->
+    <div class="service-swipe">
+        <div class="diffSection" id="services_section">
+        <center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>    
+        </div>
+        <a href="https://youtu.be/-uleG_Vecis"><div class="s-card"><img src="./Assests/icons/computer-courses.png"><p>24X7 Service</p></div></a>
+        <a href="https://youtu.be/LBSN34puYcQ"><div class="s-card"><img src="./Assests/icons/brainbooster.png"><p>Acknowledge Guest</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/online-tutorials.png"><p>Appeareanc</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/sample papers.jpg"><p>Menu Presentation</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/discussion.png"><p>Appetizers</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/sample papers.jpg"><p>Check-In</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/Albert En.png"><p>Fast Service</p></div></a>
+        <a href=""><div class="s-card"><img src="./Assests/icons/help.png"><p>Maintain Hygiene</p></div></a>
+    </div>
+
+    <div class="responsive-container-block outer-container">
+        <div class="responsive-container-block inner-container">
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-4 wk-ipadp-5 content-container">
+            <div class="content-box">
+              <p class="text-blk section-head">
+                     TEAMS
+              </p>
+              <p class="text-blk section-body">
+                Our Educational Website would provide all the education related materials:
+                Notes, Sample Papers, Online Video Lectures and courses to crack competitive
+                exams like JEE-Main, JEE-Advanced, GATE, etc. Students can clear their doubts
+                by sending their questions to our website. We have added Quizzes for Students
+                who are willing to solve problems on different topics. We have also added
+                Interview questions for students who are preparing for placements.<br><br>
+
+✔ We have made this website as responsive website so, students or users can
+easily access our website from any device.<br><br>
+
+✔ Quiz Section is an interesting feature for students which provide them with
+lots of questions. They can view their scores easily and solutions of every questions.<br><br>
+
+✔ Projects – in this I have added a project section where students from schools and
+colleges can get projects for final year and for Class 12th Board Projects.<br><br>
+
+It is completely responsive website, to provide smooth experience.
+              </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-8 team-cards-outer-container">
+            <div class="responsive-container-block team-cards-inner-container">
+              <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+                <div class="card">
+                  <div class="img-box">
+                    <img class="person-img" src="Assests/educraft name logo white.png">
+                  </div>
+                  <div class="card-content-box">
+                    <p class="text-blk person-name">
+                     Harsh Verma
+                    </p>
+                    <p class="text-blk person-info">
+                      Contributor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+                <div class="card">
+                  <div class="img-box">
+                    <img class="person-img" src="./Assests/extra/nitin.jpg">
+                  </div>
+                  <div class="card-content-box">
+                    <p class="text-blk person-name">
+                     Nishant Singh
+                    </p>
+                    <p class="text-blk person-info">
+                    Contributor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+                <div class="card">
+                  <div class="img-box">
+                    <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person3.png">
+                  </div>
+                  <div class="card-content-box">
+                    <p class="text-blk person-name">
+                      kshitij Rastogi
+                    </p>
+                    <p class="text-blk person-info">
+                    Contributor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+                <div class="card">
+                  <div class="img-box">
+                    <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person3.png">
+                  </div>
+                  <div class="card-content-box">
+                    <p class="text-blk person-name">
+                      
+                    </p>
+                    <p class="text-blk person-info">
+                    Contributor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
+                <div class="card">
+                  <div class="img-box">
+                    <img class="person-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person4.png">
+                  </div>
+                  <div class="card-content-box">
+                    <p class="text-blk person-name">
+                     
+                    </p>
+                    <p class="text-blk person-info">
+                        Contributor
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    
+<!--Reviews by Students (left space for future task)-->
+
+<!--CONTACT US-->
+    <div class="diffSection" id="contactus-section">
+	    <center><p style="font-size: 50px; padding: 100px">Contact Us</p></center> 
+	    <div class="csec"></div>
+	    <div class="back-contact">
+	        <div class="cc">
+            <form action="mailto:nitinsingh.iitp@gmail.com" method="post" enctype="text/plain">
+                <label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+		        <center>
+		        <input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+		        </center>
+			    <label>Email <span class="imp">*</span></label><br>
+			    <input type="email" name="mail" style="width: 100%" required="required"><br>
+			    <label>Message <span class="imp">*</span></label><br>
+			    <input type="text" name="message" style="width: 100%" required="required"><br>
+			    <label>Additional Details</label><br>
+			    <textarea name="addtional"></textarea><br>
+			    <button type="submit" id="csubmit">Send Message</button>
+            </form>
+            </div>
+	    </div>
+    </div>	    
+
+<!--FEEDBACK-->
+    <div class="title2" id="feedBACK">
+        <span>Give Feedback</span>
+        <div class="shortdesc2">
+            <p>Please share your valuable feedback to us</p>
+        </div>
+    </div>
+
+    <div class="feedbox">
+        <div class="feed">
+            <form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+                <label>Your Name</label><br>
+                <input type="text" name="" class="fname" required="required"><br>
+                <label>Email</label><br>
+                <input type="email" name="mail" required="required"><br>
+                <label>Additional Details</label><br>
+                <textarea name="addtional"></textarea><br>
+                <button type="submit" id="csubmit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+<!--Sliding Information-->
+    <marquee style="background: linear-gradient(to left, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marquee">"Taste of India"</div></marquee>
+<!--NEWSLETTER-->
+	  <div class="newsletter-container">
+        <h2>Our Newsletter</h2>
+        <form id="newsletter-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email to get our News and updates." required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="response-message"></p>
+    </div>
+<!--FOOTER-->
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="./Assests/educraft-name logo  black.png" style="width: 200px;">
+	    <div class="logo"></div>
+	    <div class="social-media">
+		 <a href="#"><img src="./Assests/icons/facebook colorful.png"></a>
+		 <a href="#"><img src="./Assests/icons/instagram coloful.png"></a>
+		 <a href="#"><img src="./Assests/icons/x svg.svg"></a>
+		 <a href="#"><img src="./Assests/icons/linkedin-icon.svg"></a>
+	    </div><br><br>
+	    <p class="right-text">Copyright &copy; 2024 Created By Harsh Verma, Kshitij Rastogi, Nishant Singh All Rights Reserved.</p>
+            <br><p><img src="./Assests/icons/location.png">Rajkiya engineering college <br>Banda, Ataara</p><br>
+	    <p><img src="./Assests/icons/phone.png"> +91-2234-577-890<br><img src="./Assests/icons/mail.png">&nbsp; educraft2024@gmail.com</p>
+	</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>	
+		
+        
+            
+   
+    <!--tidio chat--> 
+    <script src="//code.tidio.co/g74ypv8aqk44ewyfbbzljnaz24mjefef.js" async></script><div class="responsive-container-block outer-container">
+        
+</body>
+</html>
